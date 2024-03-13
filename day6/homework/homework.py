@@ -1,29 +1,36 @@
-input("your name")
-input("your surmame")
-input("your age")
+name = input("enter your name")
+surname = input("enter your surmame")
+age = input("enter your age")
+place = input("enter your place")
+profecion = input("enter your profecion")
+hobie = input("enter your hobie")
+sport = input("enter your favorite sport")
+print("this person is ",name,surname,"he/she is",age,"years old","he/she lives in",place,"he/she is",profecion,"his/she hobie is",hobie,"his favorite sport is ",sport)
 
 
 
 
 
 
-input(12)
-input(10)
-
-print(12+10)
-print(12-10)
-print(12/10)
-print(12*10)
-
+num1 = input("enter first number")
+num2 = input("enter second number")
+print(num1*num2)
+print(num1+num2)
+print(num1-num2)
+print(num1/num2)
 
 
 
 
 
 
-input("rusiko")
-input("giorgi")
-input("revazi")
-input("temo")
 
-print(44+25,56+25,17+25,15+25)
+age1 = input("rusiko enter your age")
+age2 = input("giorgi enter your age")
+age3 = input("revazi enter your age")
+age4 = input("temo enter your age")
+
+print(age1+25)
+print(age2+25)
+print(age3+25)
+print(age4+25)
